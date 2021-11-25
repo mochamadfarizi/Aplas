@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/kuliah/aplas/project/app/src/main/res/drawable/cell_style.xml" value="0.2203125" />
+        <entry key="..\:/kuliah/aplas/project/app/src/main/res/drawable/header_style.xml" value="0.2203125" />
         <entry key="..\:/kuliah/aplas/project/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
       </map>
     </option>
