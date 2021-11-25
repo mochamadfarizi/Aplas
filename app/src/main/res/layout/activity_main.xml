@@ -48,7 +48,7 @@
 
         <EditText
             android:id="@+id/inputText"
-            android:layout_width="0dp"
+            android:layout_width="0dip"
             android:layout_height="20pt"
             android:layout_gravity="center"
             android:layout_weight="0.2"
@@ -64,7 +64,7 @@
 
         <Spinner
             android:id="@+id/orList"
-            android:layout_width="0dp"
+            android:layout_width="0dip"
             android:layout_height="20pt"
             android:layout_weight="0.24"
             android:entries="@array/tempList"
@@ -75,7 +75,7 @@
 
         <TextView
             android:id="@+id/myTextView2"
-            android:layout_width="0dp"
+            android:layout_width="0dip"
             android:layout_height="20pt"
             android:layout_weight="0.12"
             android:fontFamily="@font/cambria"
@@ -87,7 +87,7 @@
 
         <EditText
             android:id="@+id/outputText"
-            android:layout_width="0dp"
+            android:layout_width="0dip"
             android:layout_height="20pt"
             android:layout_gravity="center"
             android:layout_weight="0.2"
@@ -102,7 +102,7 @@
 
         <Spinner
             android:id="@+id/convList"
-            android:layout_width="0dp"
+            android:layout_width="0dip"
             android:layout_height="20pt"
             android:layout_gravity="center"
             android:layout_weight="0.24"
@@ -175,16 +175,14 @@
 
     <ImageView
         android:id="@+id/imgFormula"
-        android:layout_width="120dp"
-        android:layout_height="89dp"
+        android:layout_width="128dp"
+        android:layout_height="100dp"
         android:layout_below="@+id/radioGroup"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentStart="false"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="141dp"
-        android:layout_marginTop="14dp"
-        android:layout_marginEnd="164dp"
-        android:layout_marginBottom="333dp"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="169dp"
         android:src="@drawable/temperature"
         android:visibility="visible">
 
@@ -192,21 +190,17 @@
     </ImageView>
 
     <TableLayout
+        android:id="@+id/table"
         android:layout_below="@+id/imgFormula"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_height="wrap_content">
+        android:layout_marginTop="5pt"
+        android:stretchColumns="*">
 
         <TableRow
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/header_style"
-            android:id="@+id/tv1"
-            android:text="@string/rbTemp"
-            android:textColor="#FFFFFF"
-            android:textStyle="bold"
-            android:layout_padding="5dp"
-            />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
         <TableRow
             android:layout_width="match_parent"
@@ -220,6 +214,5 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </TableLayout>
-
 
 </RelativeLayout>
